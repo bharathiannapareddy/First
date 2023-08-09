@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.navbar {
+    background-color: #cdd4d2;
+    height: 60px;
+    /* position: sticky; */
+    /* top: 0; */
+}
+.navbar-brand img {
+    color: white;
+    border:1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width:120px;
+    height:70px;
+
+}
+.navbar-brand{
+    color:#ef421b67;
+}
+
+
+.navbar .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ef421b67;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.navbar .nav-link:hover {
+    background-color: #f7b899;
+}
+
+.carousel {
+    margin-top: 10px;
+    background-color: white; 
+ 
+}
+.carousel-indicators button {
+    width: 0px;
+    height: 3px;
+    border-radius: 10%;
+   
+  }
+  .carousel img {
+    height:600px;
+    width:100%;
+    object-fit:fill;
+  }
+
+.text-center {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.text-center p {
+    color: rgba(0,0,0,0.525);
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.text-center h2 {
+    color:rgba(0,0,0,0.696);
+}
+
+.icon {
+    color: #36CBD4;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.ficon {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.ficon i {
+   
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* .ficon a {
+    color: rgba(243, 238, 239, 0.876);
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.448);
+} */
+
+.ficon a:hover {
+    color: #eee;
+}
+
+.wow h4 {
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(0,0,0,0.696);
+}
+
+.wow p {
+    text-align:center;
+    color: rgba(0,0,0,0.448);
+}
+
+
+.footer {
+    background: rgb(255, 255, 255);
+}
+
+.inner-footer ul li,a {
+    list-style: none;
+}
+
+.widgetheading {
+    font-size: 20px;
+    color: rgba(0,0,0,0.855);
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.f-about a h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #15b3bb;
+
+}
+
+.f-about p {
+    font-size: 14px;
+    color: #8a8d94;
+    text-align:left;
+}
+
+.l-posts h3 {
+    color: rgba(0, 0, 0, 0.804);
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.l-posts li a {
+    font-size: 14px;
+    color: #070708;
+    font-weight: 300;
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+   
+   
+}
+
+.l-posts li a:hover {
+    color: #5c0cf2;
+}
+
+.f-contact h3 {
+    color: rgba(0, 0, 0, 0.804);
+    margin-top: 40px;
+    margin-left:10px;
+    margin-bottom: 40px;
+   
+}
+
+.f-contact p {
+    font-size: 14px;
+    color: #0f0f10;
+    margin: 0;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-bottom: 15px;
+   
+}
+
+.f-contact i {
+    color: #56595f;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.f-contact a:hover p {
+    color: #109173;
+}
+
+.last-div {
+    margin-top: 40px;
+    background: #9cdccd;
+    padding: 20px 0;
+    position:relative;
+    padding-top: 20px;
+}
+
+.copyright {
+    font-size: 14px;
+    color:#fff;
+    font-weight: 300;
+    float: left;
+    padding-bottom: 0%;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+    color: #36CBD4;
+}
+
+ul.social-network {
+    list-style: none;
+    margin-bottom: 10px;
+    float: right;
+    font-size: 16px;
+    text-align: right;
+}
+ul.social {
+    list-style: none;
+    float: center;
+    text-align:center;
+}
+ul.social li {
+    display: inline;
+    margin: 0 15px;
+    color: rgba(245, 245, 245, 0.882);
+}
+ui.social li a{
+    color: rgba(245, 245, 245, 0.882);
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 15px;
+    color: rgba(245, 245, 245, 0.882);
+}
+
+ul.social-network li a {
+    color: rgba(245, 245, 245, 0.882);
+}
+
+ul.social-network li a:hover {
+    color: #36CBD4;
+}
+
+a.scrollup {
+    color: rgb(10, 10, 10);
+    height: 55px;
+    width: 55px;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 40px;
+    opacity: 0,5;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+a.scrollup:hover {
+    opacity: 1;
+    background-color: #36CBD4;
+    color: #fff;
+}
+
